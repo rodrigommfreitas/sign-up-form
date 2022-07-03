@@ -22,7 +22,7 @@ body {
 }
 
 .image-credits {
-  margin-top: calc(100vh - 30px);
+  margin-top: calc(100vh - 430px);
   font-size: 16px;
   text-align: center;
   text-shadow: 0 0 3px black;
@@ -31,6 +31,27 @@ body {
 
 .image-credits a {
   color: white;
+}
+
+.banner {
+  width: 40vw;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  color: white;
+  letter-spacing: 15px;
+}
+.banner h1 img {
+  height: 50px;
+  width: 50px;
+  transform: translateY(10%);
+  margin-right: 15px;
 }
 
 main {
