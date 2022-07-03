@@ -19,12 +19,19 @@ body {
 }
 
 .image-credits {
-  margin-top: calc(100vh - (3.5vh));
-  font-size: 18px;
+  margin-top: calc(100vh - 30px);
+  font-size: 16px;
   text-align: center;
   color: white;
 }
 
 a {
   color: white;
+}
+
+main {
+  height: 100vh;
+  width: calc(100vw - 750px);
+  display: flex;
+  background-color: #f9fafb;
 }
