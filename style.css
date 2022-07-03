@@ -17,3 +17,14 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.image-credits {
+  margin-top: calc(100vh - (3.5vh));
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: white;
+}
