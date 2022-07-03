@@ -58,4 +58,5 @@ main {
   width: 60vw;
   display: flex;
   background-color: #f9fafb;
+  box-shadow: -1px 0 2vw black;
 }
