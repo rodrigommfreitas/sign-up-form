@@ -1,8 +1,8 @@
-const password = document.getElementById("pwd");
-const passwordConfirm = document.getElementById("pwd-confirm");
 const form = document.getElementById("form");
 
 function checkPassword() {
+  const password = document.getElementById("pwd");
+  const passwordConfirm = document.getElementById("pwd-confirm");
   if (password.value !== "" && passwordConfirm.value !== "") {
     const warning = document.getElementById("warning");
     if (password.value !== passwordConfirm.value) {
