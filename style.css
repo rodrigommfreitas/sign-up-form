@@ -170,7 +170,7 @@ button:active {
 .warning {
   margin-top: 60px;
   margin-left: -50px;
-  color: red;
+  color: #ff0000;
   font-weight: lighter;
   font-size: 14px;
   position: absolute;
