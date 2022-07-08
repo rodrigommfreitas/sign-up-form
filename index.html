@@ -11,7 +11,9 @@
   <body>
     <div class="landscape-image">
       <div class="banner">
-        <h1><img src="tree-icon.png" alt="Logo" />NATSCAPE</h1>
+        <h1>
+          <img src="tree-icon.png" alt="Logo" draggable="false" />NATSCAPE
+        </h1>
       </div>
       <p class="image-credits">
         <a target="_blank" href="https://icons8.com/icon/18047/oak-tree"
@@ -24,6 +26,93 @@
         <a target="_blank" href="https://unsplash.com/">Unsplash</a>.
       </p>
     </div>
-    <main></main>
+    <main>
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+        <br />
+        Sign up <em>now</em> to get started.
+        <br />
+        <br />
+        You <em>know</em> you want to.
+      </p>
+      <form id="form">
+        <h2>Let's do this!</h2>
+        <fieldset>
+          <div>
+            <label for="first">First name</label>
+            <input
+              type="text"
+              id="first"
+              pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"
+              placeholder=" "
+              required
+            />
+          </div>
+          <div>
+            <label for="second">Second name</label>
+            <input
+              type="text"
+              id="second"
+              pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"
+              placeholder=" "
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=" "
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Phone number</label>
+            <input
+              type="tel"
+              id="phone"
+              pattern="^[\d \-()+]*$"
+              name="phone"
+              placeholder=" "
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <div>
+            <label for="pwd">Password</label>
+            <input
+              type="password"
+              id="pwd"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder=" "
+              required
+            />
+            <p id="warning" class="warning"></p>
+          </div>
+          <div>
+            <label for="pwd-confirm">Confirm Password</label>
+            <input
+              type="password"
+              id="pwd-confirm"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder=" "
+              required
+            />
+          </div>
+        </fieldset>
+      </form>
+      <button type="submit" form="form" id="submit-button">
+        Create Account
+      </button>
+      <p class="sign-in">Already have an account? <a href="">Log in</a></p>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
